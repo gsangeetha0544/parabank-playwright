@@ -1,0 +1,24 @@
+{
+  "name": "parabank-playwright",
+  "version": "1.0.0",
+  "description": "End-to-end test automation for ParaBank using Playwright, TypeScript and Page Object Model",
+  "scripts": {
+    "test": "playwright test",
+    "test:public": "playwright test --project=public",
+    "test:auth": "playwright test --project=authenticated",
+    "test:headed": "playwright test --headed",
+    "report:html": "playwright show-report",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "author": "Navya Sangeetha",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "^22.7.0",
+    "allure-commandline": "^2.30.0",
+    "allure-js-commons": "3.14.0",
+    "allure-playwright": "3.14.0",
+    "typescript": "^5.6.0"
+  }
+}
