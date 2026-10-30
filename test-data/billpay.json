@@ -1,0 +1,17 @@
+[
+  {
+    "payee": "Telangana State Power", "street": "Vidyut Soudha", "city": "Hyderabad",
+    "state": "Telangana", "zipCode": "500082", "phone": "04023456789",
+    "account": "55501", "amount": "120.00"
+  },
+  {
+    "payee": "Airtel Broadband", "street": "Plot 5 Hitech City", "city": "Hyderabad",
+    "state": "Telangana", "zipCode": "500081", "phone": "9876500001",
+    "account": "55502", "amount": "49.99"
+  },
+  {
+    "payee": "City Water Board", "street": "Ameerpet Main Road", "city": "Hyderabad",
+    "state": "Telangana", "zipCode": "500016", "phone": "04012345678",
+    "account": "55503", "amount": "15.75"
+  }
+]

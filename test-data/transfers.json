@@ -1,0 +1,7 @@
+[
+  { "name": "small amount", "amount": "1" },
+  { "name": "typical amount", "amount": "25.50" },
+  { "name": "round hundred", "amount": "100" },
+  { "name": "with paise", "amount": "73.99" },
+  { "name": "larger amount", "amount": "250" }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "retail checking customer",
+    "firstName": "Ananya", "lastName": "Rao",
+    "street": "12 MG Road", "city": "Hyderabad", "state": "Telangana", "zipCode": "500081",
+    "phone": "9876543210", "ssn": "123-45-6789", "accountType": "CHECKING"
+  },
+  {
+    "label": "savings customer",
+    "firstName": "Rohit", "lastName": "Verma",
+    "street": "44 Park Street", "city": "Kolkata", "state": "West Bengal", "zipCode": "700016",
+    "phone": "9123456780", "ssn": "987-65-4321", "accountType": "SAVINGS"
+  },
+  {
+    "label": "senior customer",
+    "firstName": "Meera", "lastName": "Iyer",
+    "street": "7 Anna Salai", "city": "Chennai", "state": "Tamil Nadu", "zipCode": "600002",
+    "phone": "9001122334", "ssn": "555-12-3456", "accountType": "CHECKING"
+  }
+]
