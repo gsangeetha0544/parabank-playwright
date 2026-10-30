@@ -60,8 +60,8 @@ export class BillPayPage extends BasePage {
     await expect(panel).toContainText(p.payee);
     await expect(panel).toContainText(p.amount);
   }
-
   async expectValidationError(message: string | RegExp) {
-    await expect(this.page.locator('#rightPanel .error').first()).toContainText(message);
+    const error = this.page.locator('#rightPanel .error', { hasText: message }).first();
+    await expect(error).toBeVisible();
   }
 }
